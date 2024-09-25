@@ -1,1 +1,2 @@
 # Relevancy-Score
+The algorithm calculates the relevance between a question-and-answer (QnA) pair and its assigned subtopic using embeddings. It loads two CSV files: one containing preprocessed QnA data with vector embeddings and another with subtopic embeddings. The QnA and subtopic vectors are then extracted, and cosine similarity is computed between the two to obtain a relevancy score. This helps evaluate how closely aligned a QnA pair is to its assigned subtopic.
